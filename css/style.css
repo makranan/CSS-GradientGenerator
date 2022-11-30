@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap');
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	color: rgba(0, 0, 0, .5);
+	text-transform: uppercase;
+	/* letter-spacing: .5em; */
+	/* top: 30%; */
+	background: linear-gradient(to right, #00ff00, #ff0000);
+	margin: 0;
+}
+
+h1 {
+	font: 200 1em 'Roboto Mono', monospace;
+	color: rgba(0, 0, 0, .5);
+	letter-spacing: .5em;
+	flex-basis: 100%;
+	margin-left: 15px;
+}
+
+h2 {
+	font: 600 1em 'Roboto Mono', monospace;
+	text-transform: none;
+}
+
+h3 {
+	font: 600 1em 'Roboto Mono', monospace;
+	color: rgba(0, 0, 0, .5);
+	text-transform: none;
+	margin: auto;
+	padding: 5px 0px;
+	
+}
+
+input[type=color] {
+	flex-basis: 50%;
+}
+
+#color1, #color2 {  
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100px;
+	height: 50px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+#color1::-webkit-color-swatch {
+  border-radius: 15px;
+  border: none;
+}
+#color1::-moz-color-swatch {
+  border-radius: 15px;
+  border: none;
+}
+
+#color2::-webkit-color-swatch {
+  border-radius: 15px;
+  border: none;
+}
+#color2::-moz-color-swatch {
+  border-radius: 15px;
+  border: none;
+}
+
+#rndBtn {
+	font: 800 1em 'Roboto Mono', monospace;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	margin-top: 4px;
+	flex-basis: 100%;
+	border: 0px;
+	cursor: pointer; 
+	transition: 0.1s ease-in-out;
+}
+
+#rndBtn:hover {
+	background-color: #555;
+}
+
+.container {
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
