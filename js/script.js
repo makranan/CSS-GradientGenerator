@@ -7,7 +7,7 @@ var btn = document.getElementById("rndBtn");
 
 function setGradient() {
 	body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
-	css.textContent = "background-color: " + body.style.background + ";";
+	css.textContent = "background: " + body.style.background + ";";
 }
 
 function randomInteger(max) {
