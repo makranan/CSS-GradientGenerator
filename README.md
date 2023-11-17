@@ -6,7 +6,7 @@
 
 CSS Gradient Generator is a web-based tool that allows you to generate CSS code for beautiful gradients. With this generator, you can create stunning backgrounds and visual effects for your web projects.
 
-![CSS Gradient Generator](https://mprcode.github.io/CSS-GradientGenerator/)
+![CSS Gradient Generator](https://makranan.github.io/CSS-GradientGenerator/)
 
 ## Features
 
@@ -31,7 +31,7 @@ No installation is required to use the CSS Gradient Generator. Simply open the [
 
 ## Usage
 
-1. Visit the [CSS Gradient Generator](https://mprcode.github.io/CSS-GradientGenerator/) in your web browser.
+1. Visit the [CSS Gradient Generator](https://makranan.github.io/CSS-GradientGenerator/) in your web browser.
 2. Choose your desired colors by clicking on the color stops on the gradient bar.
 3. Adjust the gradient settings (angle, position, shape) using the provided controls.
 4. Preview the gradient in real-time as you make adjustments.
